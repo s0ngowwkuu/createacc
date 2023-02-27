@@ -1,0 +1,37 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+main{
+    background-image: url(/assets/buttonbackground.jpg);
+    background-color: rgba(0, 0, 0, 0.59);;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   height: 100vh;
+}
+input{
+    background-color: rgb(9, 20, 22);
+    color: rgb(66, 176, 190);
+    margin: 0 15px;
+    padding: 12px 15px;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid;
+    -webkit-box-shadow:0px 0px 115px 88px rgba(49,139,166,1);
+    -moz-box-shadow: 0px 0px 115px 88px rgba(49,139,166,1);
+    box-shadow: 0px 0px 115px 88px rgb(96, 153, 170);
+}
+input:hover{
+    transform: translateY(15px);
+    transition: 0.3s;
+    color: rgb(42, 80, 185);
+}
+@media only screen and (max-width: 480px) {
+    main{
+        max-width: 100%;
+        width: 500px;
+    }
+  }

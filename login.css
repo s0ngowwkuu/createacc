@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/assets/nico.jpg);
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 9px solid rgba(140, 88, 156, 0.692);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    -webkit-box-shadow:0px 0px 115px 9px rgba(113,24,143,0.85);
+    -moz-box-shadow: 0px 0px 115px 9px rgba(113,24,143,0.85);
+    box-shadow: 0px 0px 115px 9px rgba(113,24,143,0.85);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background: rgb(238, 237, 237);
+}
+.form h2{
+    font-weight: 300;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(168, 113, 152);
+    transform: translateY(5px);
+    transition: 0.3s;
+}
+.form a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.form a:hover{
+    color: rgb(78, 35, 59);
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: url(/assets/nico.jpg);
+}
+.side img{
+    width: 440px;
+    height: 400px;
+}
